@@ -158,7 +158,7 @@ server.listen(PORT, () => {
       document.getElementById('status').textContent = 'Status: Connected';
       
       // Initialize file transfer
-      fileTransfer = new RTCFileTransfer(socket, 'signal', {
+      fileTransfer = new P2PFileTransfer(socket, 'signal', {
         onProgress: (sent, total) => {
           const percent = (sent / total * 100).toFixed(1);
           document.getElementById('progress').value = percent;
@@ -244,7 +244,7 @@ server.listen(PORT, () => {
 ### Constructor
 
 ```javascript
-const fileTransfer = new RTCFileTransfer(socket, signalEvent, callbacks);
+const fileTransfer = new P2PFileTransfer(socket, signalEvent, callbacks);
 ```
 
 **Parameters:**

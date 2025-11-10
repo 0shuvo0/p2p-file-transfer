@@ -3,7 +3,7 @@
  * Enables peer-to-peer file sharing with minimal backend setup
  */
 
-class RTCFileTransfer {
+class P2PFileTransfer {
     constructor(socket, signalEvent, callbacks = {}) {
         this.socket = socket;
         this.signalEvent = signalEvent;
@@ -299,10 +299,10 @@ class RTCFileTransfer {
 
 if (typeof module !== 'undefined' && module.exports) {
     // Node.js / CommonJS
-    module.exports = RTCFileTransfer;
+    module.exports = P2PFileTransfer;
 }
 
 if (typeof window !== 'undefined') {
     // Browser global
-    window.RTCFileTransfer = RTCFileTransfer;
+    window.P2PFileTransfer = P2PFileTransfer;
 }
