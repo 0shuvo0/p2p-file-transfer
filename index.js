@@ -297,7 +297,12 @@ class RTCFileTransfer {
     }
 }
 
-// Export for use in Node.js or as a module
 if (typeof module !== 'undefined' && module.exports) {
+    // Node.js / CommonJS
     module.exports = RTCFileTransfer;
+}
+
+if (typeof window !== 'undefined') {
+    // Browser global
+    window.RTCFileTransfer = RTCFileTransfer;
 }

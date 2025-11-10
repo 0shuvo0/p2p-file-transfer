@@ -17,6 +17,9 @@ A simple, lightweight library for peer-to-peer file transfer using WebRTC and So
 npm install webrtc-p2p-file-transfer
 ```
 
+### Download 
+[Download the latest release](https://raw.githubusercontent.com/0shuvo0/p2p-file-transfer/refs/heads/main/p2p-file-transfer.js)
+
 ## How It Works
 
 1. Two peers connect to a Socket.IO signaling server
