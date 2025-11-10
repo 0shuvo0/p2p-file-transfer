@@ -1,6 +1,6 @@
 {
-  "name": "p2p-file-transfer",
-  "version": "1.0.0",
+  "name": "p2p-ft",
+  "version": "1.0.1",
   "description": "A simple, lightweight library for peer-to-peer file transfer using WebRTC and Socket.IO. Transfer files directly between browsers without uploading to a server!",
   "main": "index.js",
   "scripts": {

@@ -18,7 +18,7 @@ npm install webrtc-p2p-file-transfer
 ```
 
 ### Download 
-[Download the latest release](https://raw.githubusercontent.com/0shuvo0/p2p-file-transfer/refs/heads/main/p2p-file-transfer.js)
+[Download the latest release](https://raw.githubusercontent.com/0shuvo0/p2p-file-transfer/refs/heads/main/index.js)
 
 ## How It Works
 
