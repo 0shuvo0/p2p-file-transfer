@@ -14,7 +14,7 @@ A simple, lightweight library for peer-to-peer file transfer using WebRTC and So
 ## Installation
 
 ```bash
-npm install webrtc-p2p-file-transfer
+npm i p2p-ft
 ```
 
 ### Download 
